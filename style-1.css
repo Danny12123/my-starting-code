@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 40px;
+}
+.main-header {
+    width: 100%;
+    height: 20vh;
+    background-color: #139F6F;
+    align-items: center;
+    text-align: center;
+}
+.main-header h5 {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    padding-top: 50px;
+    font-size: 25px;
+    letter-spacing: 0.10rem;
+}
+.navigation {
+    width: 100%;
+    height: 30px;
+    background-color: #333;
+}
+.navigation ul {
+    display: flex;
+    text-align: center;
+}
+.navigation ul li {
+    margin: 8px 20px;
+    
+    list-style: none;
+}
+.navigation ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+}
+#main-sec {
+    /* display: flex;  */
+    width: 30%;
+    height: 100vh;
+} 
+.main-sec-1 {
+    width: 100%;
+    height: 110vh;
+    background-color: #E4F2E7;
+    padding: 25px;
+}
+.main-sec-1 h4 {
+    padding: 10px;
+}
+.main-sec-1 p {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.main-sec-1 img {
+    margin-left: 10px;
+    width: 100%;
+    height: 30vh;
+}
+.main-sec-1 .img-box img {
+    display: block;
+    width: 70%;
+    height: 100px;
+    margin: 20px;
+}
+#section {
+    display: flex;
+}
+#flex {
+    width: 60%;
+}
+#flex .main-sec-2 {
+    margin: 0px 40px;
+}
+#flex .main-sec-2 h3 {
+    padding: 10px;
+    margin: 20px 10px 10px 10px;
+}
+#flex .main-sec-2 p {
+    padding: 10px;
+    margin-left: 10px;
+}
+#flex .main-sec-2 img {
+    width: 100%;
+    height: 30vh;
+}
+#flex .main-sec-3 img {
+    width: 100%;
+}
+footer {
+    width: 100%;
+    height: 30vh;
+    background-color: #E4F2E7;
+    margin-top: 23px;
+    
+    
+}
+footer p {
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 29px;
+    font-weight: 500;
+}
